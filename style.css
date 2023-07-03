@@ -1,0 +1,73 @@
+body{background: #FFFFFF;
+    width: 1600px;
+height: 2348px;
+top: -3267px;
+left: -3897px;}
+
+.up-webstudio{
+    width: 145px;
+height: 31px;
+top: 24px;
+left: 215px;
+font-family: Raleway;
+font-size: 26px;
+font-weight: 700;
+line-height: 31px;
+letter-spacing: 0.03em;
+text-align: left;
+}
+
+.up-studio{
+    font-family : Roboto;
+font-size: 14px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0.02em;
+text-align: left;
+    width: 42px;
+height: 16px;
+top: 32px;
+left: 453px
+}
+.up-portofolio{font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    width: 58px;
+height: 16px;
+top: 32px;
+left: 545px
+    }
+.up-contacts{font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    width: 59px;
+height: 16px;
+top: 32px;
+left: 653px
+}
+.up-email{font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    width: 135px;
+height: 16px;
+top: 32px;
+left: 1097px}
+
+.up-phone-number{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-align: left;
+
+}
