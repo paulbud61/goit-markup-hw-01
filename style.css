@@ -13,9 +13,9 @@ a:hover{background-color: green;}
 
 .header-class{
     background-color: #2F303A;
-width: 1200px
-height 600px
-top 80px}
+    width: 1600px;
+    height: 600px;
+    top: 80px}
 
 
 .uppertitle-class{
@@ -29,6 +29,7 @@ font-weight: 900;
 line-height: 60px;
 letter-spacing: 0.06em;
 text-align: center;
+color:#FFFFFF;
 }
 
 .request-button{
@@ -335,15 +336,16 @@ text-align: center;}
 .upper{
     background: #FFFFFF;
     width: 1600px;
-height: 80px;
-display: flex;
-flex-direction: row;}
+    height: 80px;
+    display: flex;
+    flex-direction: row;}
+
 .second-upper{
     background: #FFFFFF;
     width: 1600px;
-height: 80px;
-display: flex;
-flex-direction: row;}
+    height: 80px;
+    display: flex;
+    flex-direction: row;}
 
 .up-webstudio{
     width: 145px;
