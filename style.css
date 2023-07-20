@@ -19,7 +19,7 @@ a:hover{background-color: green;}
 
 
 .uppertitle-class{
-    width: 696px
+    width: 1600px
 height 120px
 top 280px
 left 452px;
@@ -47,11 +47,11 @@ color:#FFFFFF;
 
 .upperbody-class{
     display: flex;
-  width: 1170px;
+  width: 1600px;
 height: 101px;
 top: 774px;
 left: 215px;
-}
+margin: auto ;}
 
 .first-upperbody-title-class{
     width: 270px;
@@ -155,7 +155,8 @@ display: flex;
 width: 1170px;
 height: 386px;
 top: 969px;
-left: 215px}
+left: 215px;
+margin: auto}
 
 .body-title-class{
     display: block;
@@ -338,14 +339,16 @@ text-align: center;}
     width: 1600px;
     height: 80px;
     display: flex;
-    flex-direction: row;}
+    flex-direction: row;
+    margin: auto;}
 
 .second-upper{
     background: #FFFFFF;
     width: 1600px;
     height: 80px;
     display: flex;
-    flex-direction: row;}
+    flex-direction: row;
+    margin: auto;}
 
 .up-webstudio{
     width: 145px;
