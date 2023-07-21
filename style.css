@@ -17,7 +17,28 @@ a:hover{background-color: green;}
     height: 600px;
     top: 80px}
 
-
+.up-email{width: 135px;
+    height: 16px;
+    top: 32px;
+    left: 1097px;font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    }
+.up-phone-number{
+    width: 113px;
+height: 16px;
+top: 32px;
+left: 1272px;
+font-family: Roboto;
+font-size: 14px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0.02em;
+text-align: left;}
+    
 .uppertitle-class{
     width: 1600px
 height 120px
@@ -196,7 +217,7 @@ top: 1449px}
 .lowerbody-imgs-class{
 flex-direction: row;
 display: flex;
-width: 1170px;
+width: 1600px;
 height: 368px;
 top: 1635px;
 left: 215px}
@@ -344,7 +365,7 @@ text-align: center;}
 
 .second-upper{
     background: #FFFFFF;
-    width: 1600px;
+    width: 1200px;
     height: 80px;
     display: flex;
     flex-direction: row;
