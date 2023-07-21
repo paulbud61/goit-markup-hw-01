@@ -11,6 +11,8 @@ a:hover{background-color: green;}
 
 .first-button:focus{color: blue;}
 
+ul{list-style: none;}
+
 .header-class{
     background-color: #2F303A;
     width: 1600px;
