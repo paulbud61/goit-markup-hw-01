@@ -7,6 +7,17 @@ font-family: 'Roboto', sans-serif;
 color: #212121;
 border: #212121;}
 
+.content{background: #FFFFFF;
+width: 1600px;
+height: 2930px;
+top: -1717px;
+left: -1867px;
+font-family: 'Roboto', sans-serif;
+color: #212121;
+border: #212121;
+margin: auto;
+padding: auto;}
+
 button:hover{background-color: yellow;}
 a:hover{background-color: green;}
 
