@@ -665,7 +665,7 @@ icon{fill: var(--text-light-grey);
     .up-email:focus{color: gold;}
     
     .up-phone-number{
-        width: 150px;
+        width: 140px;
         height: 16px;
         top: 32px;
         left: 1263px;
