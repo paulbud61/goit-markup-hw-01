@@ -41,6 +41,7 @@ ul{list-style: none;}
     padding: 0;
     margin: 0;
     display: flex;
+    
 }
 
     
@@ -645,22 +646,26 @@ padding: 60px 0px;}
     }
     .up-contacts:focus{color: crimson;}
 
-.header-email-icon{fill: var(--text-light-grey);
+icon{fill: var(--text-light-grey);
     margin-right: 10px;}
 
+.header-email-icon{
+    overflow: visible;
+}
+
 .email-phone{margin-right: 50px;
-    
 }
 .body-class
     .up-email{font-weight: 500;
         line-height: 1.17;
         padding: 32px 0px 31px 0px;
         display: flex;
+        
 }
     .up-email:focus{color: gold;}
     
     .up-phone-number{
-        width: 112px;
+        width: 150px;
         height: 16px;
         top: 32px;
         left: 1263px;
@@ -670,6 +675,7 @@ font-weight: 500;
 line-height: 16px;
 letter-spacing: 0.02em;
 display: flex;
+
 }
     .up-phone-number:focus{background-color: aqua;}
 
