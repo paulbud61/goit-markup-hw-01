@@ -235,31 +235,79 @@ margin: auto;
 .body-images{display: flex;
 margin: auto;
 padding: 0;
-    margin: 0;}
+    margin: 0;
+position: relative;}
 
-    .overlay_4 {
+    .overlay {
         left: 0;
         bottom: 100%;
         height: 0;
-        width: 100%;
+        width: 370px;
         overflow: hidden;
         backdrop-filter: blur(8px) brightness(80%);
-        transition: margin-right 2s}
-      .image_wrapper :hover .overlay_4 {
-        bottom: 0;
-        height: 100%;
+        transition: all .3s ease-in-out; 
+        position: absolute;
       }
+      
+      .body-first-img-class:hover .overlay {
+        bottom: 0;
+        height: 25%;}
 
-.image_wrapper{
+        .overlay-2{
+            left: 0;
+            bottom: 100%;
+            height: 0;
+            width: 370px;
+            overflow: hidden;
+            backdrop-filter: blur(8px) brightness(80%);
+            transition: all .3s ease-in-out; 
+            position: absolute;
+          }
+          
+          .body-second-img-class:hover .overlay-2 {
+            bottom: 0;
+            height: 25%;}
+
+            .overlay-3{
+                left: 0;
+                bottom: 100%;
+                height: 0;
+                width: 370px;
+                overflow: hidden;
+                backdrop-filter: blur(8px) brightness(80%);
+                transition: all .3s ease-in-out; 
+                position: absolute;
+              }
+              
+              .body-third-img-class:hover .overlay-3 {
+                bottom: 0;
+                height: 25%;}
+
+.title-img{width: 376px;
+    height: 16px;
+    top: 1462px;
+    left: 347px;
+    font-family: Roboto;
+font-size: 25px;
+font-weight: 700;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-align: center;
+color: #FFFFFF;
+
+    }
+
+.body-first-img-class{
     margin-right: 30px;
+    position: relative;
 }
-    
 .body-second-img-class{
     margin-right: 30px;
+    position: relative;
 }
-
 .body-third-img-class{
     margin-right: 30px;
+    position: relative;
 }
 
 .section-lowerbody-class{padding: 94px 0px;}
