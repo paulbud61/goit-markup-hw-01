@@ -55,7 +55,6 @@ ul{list-style: none;}
 }
 
 .request-button{
-    background: #2196F3;
     color: var(--white);
     font-weight: 700;
     font-size: 16px;
@@ -65,6 +64,7 @@ ul{list-style: none;}
     border: none;
     border-radius: 4px;
     padding: 10px 20px;
+    transition: background-color var(--transition);
 }
 
 .upperbody-section{
