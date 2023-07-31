@@ -14,8 +14,8 @@
                     <a class="up-webstudio" href="https://www.figma.com/file/Topsvmk1aTDEczh9VJsPcH/Barbershop_v1-(Copy)?type=design&node-id=25368-1336&t=vBqa1T29tDYzC7oD-0">
                     <img src="images/WebStudio mark.png" alt="WebStudio" width="200"></a>
             <ul class="container studio-portofolio-contacts">
-                <li class="studio-portofolio-contacts-item"><a class="up-studio" href="https://www.figma.com/file/" style="color: #212121;">Studio</a></li>
-                <li class="studio-portofolio-contacts-item"><a class="up-portofolio" href="portofolio.html" style="color: #2196F3;">Portofolio</a></li>
+                <li class="studio-portofolio-contacts-item"><a class="up-studio current" href="https://www.figma.com/file/" style="color: #2196F3;">Studio</a></li>
+                <li class="studio-portofolio-contacts-item"><a class="up-portofolio" href="https://paulbud61.github.io/goit-markup-hw-02/" style="color: #212121;">Portofolio</a></li>
                 <li class="studio-portofolio-contacts-item"><a class="up-contacts" href="contacts.html" style="color: #212121;">Contacts</a></li>
             </ul>
             </nav>
@@ -39,7 +39,13 @@
             <h1 class="container uppertitle-class">EFFECTIVE SOLUTIONS FOR
                 <br>
                  YOUR BUSINESS</h1>
-            <button class="container request-button">Request our services</button>
+            <button data-modal-open class="container request-button">Request our services</button>
+            <body>
+                <!-- Toate marcajele, inclusiv marcajele ferestrei modale -->
+              
+                <!-- Plasăm înainte de tag-ul de închidere body  -->
+                <script src="./js/modal.js"></script>
+              </body>
         </div>
     </section>
     <section class="container upperbody-section">
@@ -179,7 +185,7 @@
                 <li class="li-adress"><a class="down-webstudio" href="https://www.figma.com/file/Topsvmk1aTDEczh9VJsPcH/Barbershop_v1-(Copy)?type=design&node-id=25368-1336&t=vBqa1T29tDYzC7oD-0"></a>
                 <address>
                 <ul>
-                    <li> <img src="images/WebStudio (1).png" alt="WebStudio" width="200"></a></li>
+                    <li><img src="images/WebStudio (1).png" alt="WebStudio" width="200"></a></li>
                 <li> <p class="down-adress"><a href="695 Park Ave, NY 10065, USA" style="color: #FFFFFF;">695 Park Ave, NY 10065, USA</a></p> </li>
                 <li><em class="down-email"><a href="info@devstudio.com" style="color: #FFFFFF99;">info@devstudio.com</a></em> </li>
                 <li><em class="down-phone-number"><a href="+1 212-772-4150" style="color: #FFFFFF99;">+1 212-772-4150</a></em></li>
@@ -198,8 +204,18 @@
 
                 
         </div>
-        
     </footer>
-        
+
+<!--Modal-->
+
+<div class="modal is-hidden" data-modal>
+    <div class="modal-content">
+        <button class="close-btn"data-modal-close>&times;</button>
+        Continutul modalului
+    </div>
+</div>
+
+    <script>feather.replace()</script>
+    <script src="./js/modal.js"></script>   
 </body>
 </html>

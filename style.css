@@ -8,10 +8,23 @@ color: #212121;
 border: #212121;
 margin: auto;}
 
-button:hover{background-color: yellow;}
-a:hover{background-color: green;}
+:root{
+    transition: 2s cubic-bezier(0.4, 0, 0.2, 1);}
 
-.first-button:focus{color: blue;}
+button:hover{background-color: yellow;
+    opacity: 1;
+    transition: 0.3s;;}
+a:hover{background-color: #2196F3;;
+transition: color var(--transition);
+opacity: 1;
+transition: 0.3s;}
+
+a{transition: color var(--transition);
+    opacity: 1;
+    transition: 0.3s;}
+
+.first-button:focus{color: blue;
+    transition: 2s cubic-bezier(0.4, 0, 0.2, 1)}
 
 ul{list-style: none;}
 
@@ -55,6 +68,7 @@ ul{list-style: none;}
 }
 
 .request-button{
+    background: #2196F3;
     color: var(--white);
     font-weight: 700;
     font-size: 16px;
@@ -670,6 +684,22 @@ padding: 60px 0px;}
     .studio-portofolio-contacts-item{margin-right: 60px;
     }
 
+    .current{
+        position: relative;
+        color: #2196F3;
+    }
+
+    .current::after{
+        content: "";
+        position: absolute;
+        left: 0px;
+        bottom: -46px;
+        height: 4px;
+        border-radius: 2px;
+        width: 100%;
+        background: #2196F3;
+        margin-top: 10px;
+    }
     .up-studio{
         font-family : Roboto;
     font-size: 14px;
@@ -679,10 +709,11 @@ padding: 60px 0px;}
     text-align: left;
         width: 42px;
     height: 16px;
-    top: 32px;
-    left: 453px
+    
     }
-    .up-studio:focus{background-color: pink;}
+    .up-studio:focus{background-color: pink;
+        
+    }
     .up-portofolio{font-family: Roboto;
         font-size: 14px;
         font-weight: 500;
@@ -807,4 +838,53 @@ color : #FFFFFF99;}
 .ul-footer{display: flex;}
 
 .li-adress{margin-right: 70px;
+}
+
+/*Modal*/
+
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #00000033;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 1s;
+  transition-delay: 0.5s;
+}
+
+.modal-content{
+    padding: 16px;
+    background-color: #FFFFFF;
+    width: 50%;
+    margin: 0 auto;
+    height: 500px;
+    position: relative;
+}
+
+.is-hidden{
+    visibility: hidden;
+    transform : scale(1.1);
+    opacity: 1;
+    pointer-events: auto
+}
+
+.close-btn{
+    background-color: red;
+    border: 1px solid red;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    transition: color var(--transition);
+}
+
+.close-btn:focus
+.close-btn:hover{
+    background-color: red;
 }
