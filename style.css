@@ -8,16 +8,16 @@ color: #212121;
 border: #212121;
 margin: auto;}
 
-:root{
-    transition: 2s cubic-bezier(0.4, 0, 0.2, 1);}
 
 button:hover{background-color: yellow;
     opacity: 1;
-    transition: 0.3s;;}
+    transition: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);}
 a:hover{background-color: #2196F3;;
 transition: color var(--transition);
 opacity: 1;
-transition: 0.3s;}
+transition: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);}
 
 a{transition: color var(--transition);
     opacity: 1;
