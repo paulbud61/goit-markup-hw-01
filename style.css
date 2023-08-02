@@ -888,3 +888,40 @@ color : #FFFFFF99;}
 .close-btn:hover{
     background-color: red;
 }
+
+/* Formular*/
+
+.form-modal{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    
+}
+
+.form-modal .terms-conditions-checkbox{
+    flex-direction: row;
+}
+
+.input-icon{
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    color: black;
+    width: 18px;
+    height: 18px;
+}
+
+.form-modal .checkbox{
+    width: 16px;
+    height: 16px;
+}
+
+.bar{width: 448px;
+    height: 40px;
+    top: 382px;
+    left: 576px;
+    border-radius: 4px;
+    border: -1px
+    }
+
