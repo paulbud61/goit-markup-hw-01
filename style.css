@@ -1057,3 +1057,20 @@ use{
     fill: #FFF;
     margin-left: 13px;
 }
+
+.form-modal .checkmark{
+    display: none;
+}
+
+.form-modal.checkmark:checked:focus+.checkbox{
+    outline: 2px solid #212121;
+}
+
+.form-modal.checkmark:checked+.checkbox{
+    background-color: #2196F3;
+    border: #2196F3;
+    fill: var(--white);
+    outline: none;
+    stroke: white;
+    stroke-width: 0.2px;
+}
