@@ -1074,3 +1074,7 @@ use{
     stroke: white;
     stroke-width: 0.2px;
 }
+
+.form-modal.terms-conditions-checkbox{
+    flex-direction: row;
+}
