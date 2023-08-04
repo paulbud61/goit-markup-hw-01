@@ -1009,6 +1009,51 @@ use{
 
 .form-footer{padding-left: 93px;
     margin-top: 25px;
+    width: 700px;
+height: 86px;
+top: 1700px;
+left: 815px;
+border-radius: 4px;;
+
+}
+.form-text{
+    color: #FFF;
+    font-family: var(--text-font-family);
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+}
+.footer-input{width: 358px;
+    height: 50px;
+    border-radius: 4px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    color: #ffffff;}
+
+.footer-form-btn{
+    font-family: var(--text-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #2196F3;
+    border: none;
+    border-radius: 4px;
+    line-height: 30px;
+    letter-spacing: 0.96px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    padding: 10px;
+    margin-left: 12px;
+}
+.footer-icon{
+    fill: #FFF;
+    margin-left: 13px;
 }
 
 
