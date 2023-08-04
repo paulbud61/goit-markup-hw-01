@@ -1020,8 +1020,7 @@ use{
     border: none;
     border-radius: 2px;
     transition: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);}
 
 .divinputs span {
     font-size: 20px;
@@ -1055,24 +1054,17 @@ use{
 }
 
 span.checkmark::after{
-   content:url(symbols/symbols/checkbox.svg);
-   transition: 250ms;
-   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+   content:url(symbols/symbols/checkbox.svg);}
 
 .agree-tandc input:checked~.checkmark {
     height: 15px;
     width: 16px;
     border: none;
     background-color: #2196F3;
-    background-image: url(symbols/symbols/checkbox-checked.svg);
-    transition: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);}
+    background-image: url(symbols/symbols/checkbox-checked.svg);}
 
 .agree-tandc input:checked~.checkmark:after {
-        display: block;
-        transition: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        display: block;;
     }
 .agree-tandc .checkmark:after {
         left: 6px;
@@ -1080,11 +1072,4 @@ span.checkmark::after{
         height: 9px;
         width: 3px;
         border: none;
-        border-width: 0 2px 2px 0;
-        transition: 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);}
-
-input[type=checkbox]:checked{
-    transition: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+        border-width: 0 2px 2px 0;}
