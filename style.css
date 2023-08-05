@@ -1133,7 +1133,7 @@ textarea:focus{
 }
 
 .bar:focus{
-    border: 5px solid #2196F3; 
+    outline: 3px solid #2196F3; 
 }
 
 .form-modal:hover .bar,
