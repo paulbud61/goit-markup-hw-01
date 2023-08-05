@@ -1136,14 +1136,14 @@ textarea:focus{
     outline: 3px solid #2196F3; 
 }
 
-.form-modal:hover .bar,
+.form-modal:hover .bar
 .form-modal:focus .bar{
     border-color: #2196F3;
     cursor: pointer;
 }
 
-.form-modal:hover .input-icon,
-.form-modal:focus .input-icon{
+.form-modal:hover .form-icons,
+.form-modal:focus .form-icons{
     border-color: #2196F3;
     cursor: pointer;
 }
