@@ -875,7 +875,6 @@ color : #FFFFFF99;}
     padding: 40px;
     border-radius: 4px;
     background-color: #FFF;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
     transition: transform var(--transition);
     transform: translate(-50%, -50%) scaleY(1);
 }
@@ -899,7 +898,6 @@ color : #FFFFFF99;}
     transition: color var(--transition);
 }
 
-.close-btn:focus
 .close-btn:hover{
     background-color: red;
 }
@@ -915,22 +913,11 @@ color : #FFFFFF99;}
 }
 
 
-.input-icon{
-    position: absolute;
-    top: 50%;
-    left: 12px;
-    color: black;
-    width: 18px;
-    height: 18px;
-}
-
-
 .bar{width: 448px;
     height: 40px;
     top: 382px;
     left: 576px;
     border-radius: 4px;
-    border: -1px;
     padding-left: 40px;
     }
 
@@ -951,9 +938,9 @@ use{
     position: absolute;
     top: 50%;
     left: 12px;
-    fill: #2e2f42;
     transition: fill var(--transition);
     transform: translateY(-50%);
+    color: #2196F3;
 }
 
 .user-comments-div{
@@ -1124,7 +1111,6 @@ span.checkmark::after{
         left: 6px;
         top: 2px;
         height: 9px;
-        width: 3px;
         border: none;
         border-width: 0 2px 2px 0;}
 
@@ -1133,27 +1119,30 @@ span.checkmark::after{
     position: absolute;
     top: 50%;
     left: 12px;
-    fill: #2e2f42;
     transition: fill var(--transition);
     transform: translate(-50%);
 }
 
-.bar:focus-within + .form-icons{
+.bar:focus-within+.form-icons{
     fill: var(--social-icon-hover-color);
     color: #2196F3;
-    
-}
-
-.form-icons:focus{
-    color: #2196F3;
-    fill: var(--social-icon-hover-color);
-}
-
-input:focus{
-    fill: var(--social-icon-hover-color);
-    border: 3px solid #2196F3;
 }
 
 textarea:focus{
+    border: 3px solid #2196F3;
+}
+
+.bar:focus{
+    border: 5px solid #2196F3; 
+}
+
+.form-icons:focus{
+    fill: #2196F3;
+}
+.form-icons:focus-within{
     border: #2196F3;
+}
+
+.form-icons:hover{
+    color: #2196F3;
 }
