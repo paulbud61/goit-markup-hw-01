@@ -95,14 +95,15 @@ ul{list-style: none;}
     padding: 94px 0px;
 }
 
+/*
 .div-upperbody{
     display: block;
     width: 1200px;
     margin-right: auto;
     margin-left: auto;
-    padding: 0 15px;
-    
+    padding: 0 15px;  
 }
+*/
 
 
 .section-body-class{padding-top: 0px;
@@ -688,13 +689,15 @@ height: 251px;
 top: 2679px;
 padding: 60px 0px;}
 
+/*
 .div-footer{   width: 1200px;
     margin-right: auto;
     margin-left: auto;
     padding: 0 15px;
-    display: flex;
-}
+    display: flex;}
+*/
 
+/*
 .upper{
     background: #FFFFFF;
     display: flex;
@@ -703,7 +706,7 @@ padding: 60px 0px;}
     margin-right: auto;
     margin-left: auto;
     padding: 0 15px;}
-
+*/
 .second-upper{
     display: flex;
     align-items: center;}
@@ -784,9 +787,9 @@ icon{fill: var(--text-light-grey);
 .header-email-icon{
     overflow: visible;
 }
-
+/*
 .email-phone{margin-right: 50px;
-}
+}*/
 .body-class
     .up-email{font-weight: 500;
         line-height: 1.17;
@@ -1033,15 +1036,16 @@ use{
     color: #757575;
 }
 
+/*
 .form-footer{padding-left: 93px;
     margin-top: 25px;
     width: 700px;
 height: 86px;
 top: 1700px;
 left: 815px;
-border-radius: 4px;;
+border-radius: 4px;;}
+*/
 
-}
 .form-text{
     color: #FFF;
     font-family: var(--text-font-family);
@@ -1215,7 +1219,7 @@ height: 3244px;
             background: #FFFFFF;
             display: flex;
             align-items: center;
-            width: 1200px;
+            
             margin-right: auto;
             margin-left: auto;
             padding: 0 15px;}
@@ -1296,7 +1300,7 @@ text-align: center;
                         margin: 0;
                     }
 .body-class{
-    width: 1200px;
+    
 height: 386px;
 top: 1119px;
 left: 215px;
@@ -1341,19 +1345,18 @@ display: none;}
                 height: 456px;
                 top: 2788px;
                 padding: 60px 0px;}
-                .div-footer{   width: 1200px;
+                .div-footer{   
                     margin-right: auto;
                     margin-left: auto;
                     padding: 0 15px;
                     display: flex;}
-.div-footer{   width: 1200px;
+.div-footer{   
 margin-right: auto;
 margin-left: auto;
 padding: 0 15px;
 display: block;}
 .form-footer{padding-left: 75px;
     margin-top: 100px;
-    width: 700px;
     height: 86px;
     top: 1700px;
     left: 815px;
