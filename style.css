@@ -1363,6 +1363,22 @@ display: block;}
     left: 815px;
     border-radius: 4px;
 }
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #00000033;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 1s;
+  transition-delay: 0.5s;
+
+
+}
+
 }
 
    /*Desktop*/
