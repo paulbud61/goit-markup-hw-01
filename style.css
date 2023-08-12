@@ -1215,6 +1215,7 @@ height: 3244px;
             background: #2196F3;
             margin-top: 10px;
         }
+        .email-phone{display: flex;}
         .upper{
             background: #FFFFFF;
             display: flex;
