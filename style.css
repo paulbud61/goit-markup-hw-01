@@ -1351,7 +1351,14 @@ margin-right: auto;
 margin-left: auto;
 padding: 0 15px;
 display: block;}
-
+.form-footer{padding-left: 75px;
+    margin-top: 100px;
+    width: 700px;
+    height: 86px;
+    top: 1700px;
+    left: 815px;
+    border-radius: 4px;
+}
 }
 
    /*Desktop*/
