@@ -35,8 +35,8 @@ a{transition: color var(--transition);
 
 ul{list-style: none;}
 
-.header{width: 1600px;
-    height: 80px;
+.header{width: 428px;
+    height: 70px;
     border-bottom: 1px solid;
     }
 
