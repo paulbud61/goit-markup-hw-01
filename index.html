@@ -12,31 +12,39 @@
         <div class="container upper">
             <nav class="container second-upper">
                     <a class="up-webstudio" href="https://www.figma.com/file/Topsvmk1aTDEczh9VJsPcH/Barbershop_v1-(Copy)?type=design&node-id=25368-1336&t=vBqa1T29tDYzC7oD-0">
-                    <img src="images/WebStudio mark.png" alt="WebStudio" width="200"></a>
+                    <img src="images/WebStudio mark.png" alt="WebStudio" width="200"></a></nav>
             
-    
-    <button data-modal-open class="menu-icon">
-        <svg><use href="/symbols/symbols/symbol-defs.svg#icon-Vector"></use></svg>  
+    <button data-open class="menu-icon" type="button">
+        <svg><use href="/symbols/symbols/symbol-defs.svg#icon-Vector"></use></svg>
     </button>
-            <ul class="container studio-portofolio-contacts">
-                <li class="studio-portofolio-contacts-item"><a class="up-studio current" href="https://paulbud61.github.io/goit-markup-hw-01/" style="color: #2196F3;">Studio</a></li>
-                <li class="studio-portofolio-contacts-item"><a class="up-portofolio" href="https://paulbud61.github.io/goit-markup-hw-02/" style="color: #212121;">Portofolio</a></li>
-                <li class="studio-portofolio-contacts-item"><a class="up-contacts" href="contacts.html" style="color: #212121;">Contacts</a></li>
-            </nav>
-            </ul>
-         
-            <ul class="contact-up">
-                <li class="container email-phone"><a class="up-email" href="http://gmail.com/" style="display: flex; color: #434455;"><svg class="header-email-icon" width="16" height="16">
-                    <img class="email-icon" src="./images/icons.svg/envelope (hover).svg">
-                  </svg>
-                  info@devstudio.com
-                  </a>
-                <li class="container phone-email"><a class="up-phone-number" href="tel:+380961111111" style="color:#434455;"><svg class="header-email-icon" width="16" height="16px">
-                    <img class="phone-icon" src="./images/icons.svg/smartphone.svg">
-                  </svg>
-                  +38 096 111 11 11</a></li>
+    <div class="mobile-container js-menu-container is-open" data>
+        <div>
+            <button data-close class="close-btn js-close-menu" type="button">
+                <svg width="12" height="12">
+                    <use href="/symbols/symbols/symbol-defs.svg#icon-close"></use>
+                    </svg>
+                </button>
+                <ul class="container studio-portofolio-contacts">
+                    <li class="studio-portofolio-contacts-item"><a class="up-studio current" href="https://paulbud61.github.io/goit-markup-hw-01/" style="color: #2196F3;">Studio</a></li>
+                    <li class="studio-portofolio-contacts-item"><a class="up-portofolio" href="https://paulbud61.github.io/goit-markup-hw-02/" style="color: #212121;">Portofolio</a></li>
+                    <li class="studio-portofolio-contacts-item"><a class="up-contacts" href="contacts.html" style="color: #212121;">Contacts</a></li>
                 
-            </ul> 
+                </ul>
+             
+                <ul class="contact-up">
+                    <li class="container email-phone"><a class="up-email" href="http://gmail.com/" style="display: flex; color: #434455;"><svg class="header-email-icon" width="16" height="16">
+                        <img class="email-icon" src="./images/icons.svg/envelope (hover).svg">
+                      </svg>
+                      info@devstudio.com
+                      </a>
+                    <li class="container phone-email"><a class="up-phone-number" href="tel:+380961111111" style="color:#434455;"><svg class="header-email-icon" width="16" height="16px">
+                        <img class="phone-icon" src="./images/icons.svg/smartphone.svg">
+                      </svg>
+                      +38 096 111 11 11</a></li>
+                    
+                </ul> 
+        </div>
+       
         </div>
     </header>   
         
@@ -285,6 +293,7 @@
 </div>
 
     <script>feather.replace()</script>
-    <script src="./js/modal.js"></script>   
+    <script src="./js/modal.js"></script>
+    <script src="./js/menu-mobile.js"></script>     
 </body>
 </html>
