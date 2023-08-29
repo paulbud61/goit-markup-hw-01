@@ -58,7 +58,7 @@ ul {
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(images/header\ img.jpg);
+    url(images/Dark-bg-m.png);
   background-size: cover;
   /* padding: 1px; */
   justify-content: center;
@@ -70,6 +70,45 @@ ul {
   width: 100%;
   height: 436px;
   top: 72px;
+  background-color: #2e2f42b2;
+}
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .box {
+    background-image: url(/images/Dark-bg-2x-m.jpg);
+  }
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .box {
+    background-image: url(/images/Crhistopher\ Walker-2x-m.jpg);
+  }
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .box {
+    background-image: url(/images/Kylie\ Evans-2x-m.jpg);
+  }
+}
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .box {
+    background-image: url(/images/Tyler\ Moore-2x-m.jpg);
+  }
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .box {
+    background-image: url(/images/Ryan\ Harris-2x-m.jpg);
+  }
 }
 
 .header-class-active {
@@ -498,6 +537,7 @@ ul {
   height: 100%;
   top: 1635px;
   left: 515px;
+  background-image: url(/images/Ryan\ Harris-m.png);
 }
 .lowerbody-first-name-class {
   font-weight: 500;
@@ -1577,7 +1617,7 @@ textarea:focus {
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(images/header\ img.jpg);
+      url(images/Dark-bg-t.png);
     background-size: cover;
     padding: 1px 0px;
     justify-content: center;
@@ -1586,9 +1626,18 @@ textarea:focus {
     color: #ffffff;
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
-    width: 768px;
+    width: 100%;
     height: 436px;
     top: 72px;
+    background-color: #2e2f42b2;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .box {
+      background-image: url(/images/Dark-bg-2x-t.jpg);
+    }
   }
 
   .header-class-active {
@@ -1933,9 +1982,9 @@ textarea:focus {
     background-image: linear-gradient(
         to right,
         rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)
+        rgba(47, 48, 58, 0.4) #2e2f42b2
       ),
-      url(images/header\ img.jpg);
+      url(images/Dark-bg-d.png);
     background-size: cover;
     /* padding: 200px 351px; */
     justify-content: center;
@@ -1946,6 +1995,15 @@ textarea:focus {
     -webkit-text-size-adjust: 100%;
     width: 100%;
     height: 600px;
+    background-color: #2e2f42b2;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .box {
+      background-image: url(/images/Dark-bg-2x-d.jpg);
+    }
   }
 
   .header-class-active {
@@ -1999,6 +2057,30 @@ textarea:focus {
   .body-first-img-class {
     margin-right: 30px;
     position: relative;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .box {
+      background-image: url(/images/what\ we\ do\ 1-2x-d.jpg);
+    }
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .box {
+      background-image: url(/images/what\ we\ do\ 2-2x-d.jpg);
+    }
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .box {
+      background-image: url(/images/what\ we\ do\ 3-2x-d.jpg);
+    }
   }
   .body-images {
     display: flex;
