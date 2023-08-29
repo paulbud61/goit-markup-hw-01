@@ -449,9 +449,7 @@ ul {
 }
 
 .lowerbody-class {
-  margin-right: 82px;
-  list-style: none;
-  /* margin-left: 82px; */
+  margin-right: 50px;
 }
 
 .lowerbody-title-class {
@@ -459,7 +457,6 @@ ul {
   text-align: center;
   font-weight: 700;
   font-size: 36px;
-  padding-top: 96px;
 }
 
 .card {
@@ -2090,6 +2087,10 @@ textarea:focus {
     margin-left: 100px;
   }
 
+  .section-lowerbody-class {
+    margin-top: 100px;
+    padding: 94px 0px;
+  }
   .lowerbody-first-pers-class {
     background-color: var(white);
     border-radius: 0px 0px 4px 4px;
@@ -2172,9 +2173,9 @@ textarea:focus {
   .lowerbody-imgs-class2 {
     list-style: none;
     padding: 0;
-    margin-top: 50px;
+    margin: 0;
     display: flex;
-    padding-bottom: 82px;
+    padding: 0;
   }
   .clients-list2 {
     display: flex;
