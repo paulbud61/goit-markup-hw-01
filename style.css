@@ -517,7 +517,7 @@ ul {
 .social-1 {
   display: flex;
   align-self: center;
-  width: 206px;
+  /* width: 206px; */
   height: 44px;
   top: 2139px;
   left: 247px;
@@ -578,7 +578,7 @@ ul {
 .social-2 {
   display: flex;
   align-self: center;
-  width: 206px;
+  /* width: 206px; */
   height: 44px;
   top: 2139px;
   left: 247px;
@@ -653,7 +653,7 @@ ul {
 .social-3 {
   display: flex;
   align-self: center;
-  width: 206px;
+  /* width: 206px; */
   height: 44px;
   top: 2139px;
   left: 247px;
@@ -721,7 +721,7 @@ ul {
 .social-4 {
   display: flex;
   align-self: center;
-  width: 206px;
+  /* width: 206px; */
   height: 44px;
   top: 2139px;
   left: 247px;
@@ -2167,6 +2167,13 @@ textarea:focus {
     display: flex;
     /* padding-right: 25px; */
     margin-left: 332px;
+  }
+  .up-email {
+    font-weight: 500;
+    line-height: 1.17;
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    margin-top: 32px;
   }
 
   .div-upperbody {
