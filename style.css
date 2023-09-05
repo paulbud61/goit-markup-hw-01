@@ -280,7 +280,7 @@ ul {
   font-weight: 700;
   line-height: 16px;
   letter-spacing: 0.03em;
-  text-align: left;
+  text-align: center;
   color: #212121;
 }
 .first-upperbody-text-class {
@@ -293,7 +293,7 @@ ul {
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.03em;
-  text-align: left;
+  text-align: center;
   color: #757575;
 }
 .second-upperbody-title-class {
@@ -306,7 +306,7 @@ ul {
   font-weight: 700;
   line-height: 16px;
   letter-spacing: 0.03em;
-  text-align: left;
+  text-align: center;
   color: #212121;
 }
 .second-upperbody-text-class {
@@ -319,7 +319,7 @@ ul {
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.03em;
-  text-align: left;
+  text-align: center;
   color: #757575;
 }
 .third-upperbody-title-class {
@@ -332,7 +332,7 @@ ul {
   font-weight: 700;
   line-height: 16px;
   letter-spacing: 0.03em;
-  text-align: left;
+  text-align: center;
   color: #212121;
 }
 .third-upperbody-text-class {
@@ -345,7 +345,7 @@ ul {
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.03em;
-  text-align: left;
+  text-align: center;
   color: #757575;
 }
 .fourth-upperbody-title-class {
@@ -358,7 +358,7 @@ ul {
   font-weight: 700;
   line-height: 16px;
   letter-spacing: 0.03em;
-  text-align: left;
+  text-align: center;
   color: #212121;
 }
 .fourth-upperbody-text-class {
@@ -371,7 +371,7 @@ ul {
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.03em;
-  text-align: left;
+  text-align: center;
   color: #757575;
 }
 
@@ -531,7 +531,7 @@ ul {
 .lowerbody-third-pers-class:hover,
 .lowerbody-fourth-pers-class:hover {
   box-shadow: 0 5px 15px rgba(0, 114, 236, 0.63);
-  transition-duration: 1s;
+  transition-duration: 0.3s;
 }
 
 .social-1 {
@@ -586,6 +586,62 @@ ul {
   line-height: 1.17;
   text-align: center;
   margin-bottom: 10px;
+}
+.lowerbody-first-pers-class:hover .lowerbody-first-name-class,
+.lowerbody-first-pers-class:hover .lowerbody-first-job-class {
+  font-size: 25px;
+  font-weight: 500;
+  transition-duration: 0.3s;
+  color: #2196f3;
+}
+
+.lowerbody-first-pers-class:hover .linkedln-1,
+.lowerbody-first-pers-class:hover .twitter-1 {
+  margin-left: 10px;
+  margin-right: 10px;
+  transition-duration: 0.3s;
+}
+
+.lowerbody-second-pers-class:hover .lowerbody-second-name-class,
+.lowerbody-second-pers-class:hover .lowerbody-second-job-class {
+  font-size: 25px;
+  font-weight: 500;
+  transition-duration: 0.3s;
+  color: #2196f3;
+}
+.lowerbody-second-pers-class:hover .linkedln-2,
+.lowerbody-second-pers-class:hover .twitter-2 {
+  margin-left: 10px;
+  margin-right: 10px;
+  transition-duration: 0.3s;
+}
+
+.lowerbody-third-pers-class:hover .lowerbody-third-name-class,
+.lowerbody-third-pers-class:hover .lowerbody-third-job-class {
+  font-size: 25px;
+  font-weight: 500;
+  transition-duration: 0.3s;
+  color: #2196f3;
+}
+.lowerbody-third-pers-class:hover .linkedln-3,
+.lowerbody-third-pers-class:hover .twitter-3 {
+  margin-left: 10px;
+  margin-right: 10px;
+  transition-duration: 0.3s;
+}
+
+.lowerbody-fourth-pers-class:hover .lowerbody-fourth-name-class,
+.lowerbody-fourth-pers-class:hover .lowerbody-fourth-job-class {
+  font-size: 25px;
+  font-weight: 500;
+  transition-duration: 0.3s;
+  color: #2196f3;
+}
+.lowerbody-fourth-pers-class:hover .linkedln-4,
+.lowerbody-fourth-pers-class:hover .twitter-4 {
+  margin-left: 10px;
+  margin-right: 10px;
+  transition-duration: 0.3s;
 }
 .lowerbody-first-job-class {
   color: var(--text-light-grey);
