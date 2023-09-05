@@ -215,9 +215,15 @@ ul {
   transition-duration: 1s;
 }
 
-.upperbody-group1:hover,
-.upperbody-group2:hover,
-.upperbody-group3:hover,
+.upperbody-group1:hover {
+  transform: rotate3d(0, 1, 0, 360deg);
+}
+.upperbody-group2:hover {
+  transform: rotate3d(0, 1, 0, 360deg);
+}
+.upperbody-group3:hover {
+  transform: rotate3d(0, 1, 0, 360deg);
+}
 .upperbody-group4:hover {
   transform: rotate3d(0, 1, 0, 360deg);
 }
