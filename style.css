@@ -212,6 +212,14 @@ ul {
   border-radius: 4px;
   margin-left: auto;
   margin-right: auto;
+  transition-duration: 1s;
+}
+
+.upperbody-group1:hover,
+.upperbody-group2:hover,
+.upperbody-group3:hover,
+.upperbody-group4:hover {
+  transform: rotate3d(0, 1, 0, 360deg);
 }
 
 .upperbody-group2 {
@@ -222,6 +230,7 @@ ul {
   border-radius: 4px;
   margin-left: auto;
   margin-right: auto;
+  transition-duration: 1s;
 }
 
 .upperbody-group3 {
@@ -232,6 +241,7 @@ ul {
   border-radius: 4px;
   margin-left: auto;
   margin-right: auto;
+  transition-duration: 1s;
 }
 
 .upperbody-group4 {
@@ -242,6 +252,7 @@ ul {
   border-radius: 4px;
   margin-left: auto;
   margin-right: auto;
+  transition-duration: 1s;
 }
 
 .group-1 {
@@ -514,6 +525,15 @@ ul {
   margin-top: 72px;
   margin-left: 0;
 }
+
+.lowerbody-first-pers-class:hover,
+.lowerbody-second-pers-class:hover,
+.lowerbody-third-pers-class:hover,
+.lowerbody-fourth-pers-class:hover {
+  box-shadow: 0 5px 15px rgba(0, 114, 236, 0.63);
+  transition-duration: 1s;
+}
+
 .social-1 {
   display: flex;
   align-self: center;
@@ -535,8 +555,8 @@ ul {
   height: 44px;
   top: 2139px;
   left: 301px;
-  margin-left: 16px;
-  margin-right: 16px;
+  /* margin-left: 16px; */
+  /* margin-right: 16px; */
 }
 .facebook-1 {
   width: 44px;
@@ -549,7 +569,7 @@ ul {
   height: 44px;
   top: 2139px;
   left: 409px;
-  margin-left: 16px;
+  /* margin-left: 16px; */
   margin-right: auto;
 }
 
@@ -841,6 +861,7 @@ ul {
   flex-shrink: 0;
   margin-right: 16px;
 }
+
 .client-2 {
   width: 150px;
   height: 88px;
@@ -1636,6 +1657,7 @@ textarea:focus {
     letter-spacing: 0.02em;
     text-align: center;
   }
+
   .studio-portofolio-contacts {
     display: flex;
   }
