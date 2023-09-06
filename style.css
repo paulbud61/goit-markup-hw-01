@@ -1059,6 +1059,12 @@ ul {
   cursor: pointer;
 }
 
+.clients-border1:hover .client-1 {
+  fill: var(--social-icon-hover-color);
+  cursor: pointer;
+  transition: var(--transition);
+}
+
 .clients-border2:hover .client-2 {
   fill: var(--social-icon-hover-color);
   cursor: pointer;
@@ -2149,8 +2155,8 @@ textarea:focus {
     cursor: pointer;
   }
 
-  .clients-border1:hover + .client-1,
-  .clients-border1:focus + .client-1 {
+  .clients-border1:hover .client-1,
+  .clients-border1:focus .client-1 {
     fill: var(--social-icon-hover-color);
     cursor: pointer;
     transition: var(--transition);
